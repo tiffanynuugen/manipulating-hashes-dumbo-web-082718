@@ -13,7 +13,6 @@ def first_challenge
     }
   }
   
-def first_challenge(contacts)
   contacts.each do |person, data|
   data.each do |attribute, value|
     if value.class == Array && value.include?("strawberry")
