@@ -21,5 +21,5 @@ def first_challenge
     end
   end
 end
- contacts
+ puts contacts
 end
